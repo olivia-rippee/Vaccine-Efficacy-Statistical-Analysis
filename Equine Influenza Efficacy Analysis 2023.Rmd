@@ -38,7 +38,7 @@ format_integer <- function(x) {
 
 ```{r data}
 
-data_2026 <- #efficacy data file
+data_2026 <- read.csv("your_efficacy_data_file.csv")
   
 # Data cleaning that will vary based on input file and desired outcomes
 # ---------------------------------------------------------------------
@@ -718,4 +718,5 @@ ggplot(data_2026_RM_titer_incidence_5day,
     plot.subtitle = element_text(size = 10))
 
 ```
+
 
